@@ -1,14 +1,14 @@
 
 from turtle import *
 
-speed(20)
+speed(50)
 penup()
 
 
 bgcolor("lightblue")
 
 
-color("darkorange")
+color("saddle brown")
 begin_fill()
 
 
@@ -39,7 +39,7 @@ forward(300)
 left(90)
 end_fill()
 
-color("darkred")
+color("saddle brown")
 begin_fill()
 
 penup()
@@ -56,11 +56,11 @@ left(90)
 end_fill()
 
 
-color("darkorange")
+color("saddle brown")
 begin_fill()
 
 penup()
-goto(-150, -50)
+goto(-165, -50)
 pendown()
 forward(50)
 left(90)
@@ -73,7 +73,7 @@ left(90)
 
 
 penup()
-goto(-75, -50)
+goto(-85, -50)
 pendown()
 forward(50)
 left(90)
@@ -85,7 +85,7 @@ forward(50)
 left(90)
 
 penup()
-goto(0, -50)
+goto(-15, -50)
 pendown()
 forward(50)
 left(90)
@@ -96,9 +96,8 @@ left(90)
 forward(50)
 left(90)
 
-
 penup()
-goto(75, -50)
+goto(60,-50)
 pendown()
 forward(50)
 left(90)
@@ -111,7 +110,7 @@ left(90)
 end_fill()
 
 
-color("darkred")
+color("saddle brown")
 begin_fill()
 
 
@@ -128,7 +127,7 @@ forward(150)
 left(90)
 end_fill()
 
-color('darkorange')
+color('saddle brown')
 begin_fill()
 battlement_size = 45  
 penup()
@@ -217,8 +216,6 @@ left(90)
 end_fill()
 
 
-
-
 color("lightyellow")
 begin_fill()
 
@@ -235,6 +232,64 @@ left(90)
 forward(120)
 left(90)
 end_fill()
+
+color('black')
+begin_fill()
+penup()
+goto(-275,-50)
+pendown()
+forward(50)
+left(90)
+forward(140)
+left(90)
+forward(50)
+left(90)
+forward(140)
+left(90)
+end_fill()
+
+color('black')
+begin_fill()
+penup()
+goto(175,-50)
+pendown()
+forward(50)
+left(90)
+forward(140)
+left(90)
+forward(50)
+left(90)
+forward(140)
+left(90)
+end_fill()
+
+width(3)
+color('yellow')
+penup()
+goto(-45,0)
+pendown()
+left(90)
+forward(145)
+right(90)
+forward(90)
+right(90)
+forward(50)
+right(90)
+forward(90)
+
+penup()
+goto(0, 105)
+color('black')
+write("GOA", align="center", font=("Arial", 20, "bold"))
+
+penup()
+goto(-30,105)
+pendown()
+left(180)
+
+
+
+
 
 
 exitonclick()
