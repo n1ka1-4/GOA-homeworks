@@ -1,0 +1,7 @@
+camel case-we use it in java, javascript and C# it's looks like this: "camelCase"
+snake case-we use it in python it's looks like this: "snake_case"
+pascal case-we use it in java, C# and typescript it's looks like this: "PascalCase"
+kebab case-we use it in COBOL, Lisp, Perl 6, CSS class names, HTML ids, Java and JavaScript it's looks like this: "kebab-case" 
+flat case-we used it in java and javascript it's looks like this: "flatcase"
+train case-we used it in java and javascript it's looks like this: Train-Case"
+COBOL case-we use it in FLOW-MATIC it's looks like this: "COBOL-CASE"

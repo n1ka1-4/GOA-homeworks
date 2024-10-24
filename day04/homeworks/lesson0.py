@@ -15,9 +15,9 @@ print(32/1223)
 print(163/34)
 
 print(1232 % 23)
-print(43 % 1232)
+print(43 % 12)
+print(32 % 31)
 
-
-
-
-
+print(10**3)
+print(42**1)
+print(12**2)
