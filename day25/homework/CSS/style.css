@@ -1,0 +1,14 @@
+p{
+    color: brown;
+}
+button{
+    background-color: blue;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+a{
+    color: rgb(195, 195, 247);
+    text-decoration: none;
+}

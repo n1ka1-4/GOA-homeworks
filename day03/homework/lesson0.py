@@ -1,0 +1,10 @@
+num = 212
+num1 = 23.4
+num2 = "book"
+num3 = 21.34
+num4 = "animal"
+num5 = "lion"
+num6 = 4318
+num7 = 67.45
+num8 = "speed"
+num9 = 99.99

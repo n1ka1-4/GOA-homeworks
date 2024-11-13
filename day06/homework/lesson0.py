@@ -1,31 +1,11 @@
-# x=3
-# x=x+5
-# print(x)
-#this is exacly same as:
-x=3
-x+=5
-print(x)
-
-# y=4
-# y=y-8
-# print(y)
-#this is exacly same as:
-y=4
-y-=8
-print(y)
-
-# z=16
-# z=z/8
-# print(z)
-#this is exacly same as:
-z=16
-z/=8
-print(z)
-
-# h=21
-# h=h*5
-# print(h)
-#this is exacly same as:
-h=21
-h*=5
-print(h)
+num = int(input("1. enter your number: "))
+num1 = int(input("1. enter your number: "))
+num2 = int(input("1. enter your number: "))
+num3 = int(input("1. enter your number: "))
+num4 = int(input("1. enter your number: "))
+num5 = int(input("1. enter your number: "))
+num6 = int(input("1. enter your number: "))
+num7 = int(input("1. enter your number: "))
+num8 = int(input("1. enter your number: "))
+num9 = int(input("1. enter your number: "))
+print(num + num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9)

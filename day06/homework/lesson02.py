@@ -1,7 +1,3 @@
-x=5
-x-=3
-x+=12
-x/=7
-x*=12
-x+=10
-print(x)
+num1 = int(input("enter your number1: "))
+num1 *= 5
+print(num1)
