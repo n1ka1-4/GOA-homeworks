@@ -1,0 +1,11 @@
+p{
+    background-color: black;
+    color: red;
+}
+b{
+    font-style: italic;
+}
+div p{
+    color:hsl(0, 100%, 69%);
+}
+/* goodbye world */
