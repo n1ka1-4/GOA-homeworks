@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+p{
+    text-decoration:overline dashed;
+}
+#box{
+    text-decoration:underline dotted;
+}
+#box1{
+    text-decoration: line-through;
+}
+#box2{
+    text-decoration: overline;
+}
+#box3{
+    text-decoration:solid;
+}
+#box4{
+    text-decoration:underline wavy;
+}
+#box5{
+    text-decoration: none;
+}
+h1{
+    font-family: "doto", Impact;
+}
+
