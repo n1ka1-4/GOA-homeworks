@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Bungee+Spice&family=Doto:wght@100..900&display=swap');
+#bb{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 100%, 67%);
+    box-shadow: 12px 12px 12px hsl(0, 0%, 22%);
+}
+#b{
+    font-family: Bokor, serif ;
+}
+#b1{
+    font-family: Bungee Spice, serif ;
+}
+#b2{
+    font-family: Doto, serif ;
+}
+/* 1 */
+h1{
+    font-family: bokor, system-ui;
+}
+p{
+    color: hsl(220, 100%, 80%);
+}
+p b{
+    color: hsl(0, 76%, 84%);
+    background-color: black;
+}
+img{
+    box-shadow: 12px 12px 12px hsl(0, 0%, 38%);
+    width: 125px;
+    height: 125px;
+}
+a{
+    text-decoration: none;
+    text-shadow: 0px 0px 20px rgb(195, 171, 117);
+    color: hsl(0, 0%, 49%)
+}
