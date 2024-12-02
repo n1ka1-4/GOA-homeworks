@@ -1,0 +1,25 @@
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 70%);
+}
+a:hover{
+    color: hsl(0, 100%, 76%);
+}
+a:active{
+    color: hsl(0, 100%, 66%);
+}
+a:visited{
+    color: rgb(223, 12, 255);
+}
+
+/* pseudo selector ვიყენებთ რომ გავსტილოთ თეგი რაღაც მომენტში მაგ როცა გადაუვლი ზედ ან როცა გადასული ხარ უკვე */
+
+button{
+    color: hsl(225, 100%, 70%);
+}
+button:hover{
+    color: hsl(205, 100%, 73%);
+}
+button:active{
+    color: hsl(234, 100%, 57%);
+}

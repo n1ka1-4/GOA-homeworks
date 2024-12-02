@@ -1,0 +1,42 @@
+a:link{
+    background-color: yellow;
+    color: #ff7b7b;
+    text-decoration: none;
+}
+a:visited{
+    background-color: rgb(38, 38, 19);
+    color: #ff7b7b;
+}
+a:hover{
+    background-color: rgb(153, 153, 127);
+    color: #ff7b7b;
+}
+a:active{
+    background-color: rgb(144, 124, 124);
+    color: #bc5959;
+}
+
+/* :link only efects on unvisited links
+   : visited only effects when you visit the link already
+   : hover only effects when you hover over the link
+   : active only effects when you click on the link*/
+button{
+    border: none;
+    border-radius: 50px;
+    width : 100px;
+    height: 100px;
+    background-color: #ff7b7b;
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #056867;
+    color: #ebebeb;
+}
+button:active{
+    background-color: #6f2001;
+    color: #9a9a9a;
+}
+
+/* :visited ფერს იცვლის იმიტომ რომ გავიგოთ ვიყავით თუ არა უკვე გადასული და თავიდნ შეცდომით აღარ გადავიდეთ. */
