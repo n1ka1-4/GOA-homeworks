@@ -28,4 +28,3 @@ def invert(lst):
             lis1.append(i * -1)
     return lis1
         
-        
