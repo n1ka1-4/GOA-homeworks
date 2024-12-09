@@ -1,0 +1,33 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 250px;
+    height: 250px;
+}
+div:nth-child(1){
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: red;
+}
+div:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+}
+div:nth-child(3){
+    position: absolute;
+    right:0;
+    bottom: 0;
+    background-color: blue;
+}
+div:nth-child(4){
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+}
