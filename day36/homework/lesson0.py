@@ -29,9 +29,9 @@ def remove_exclamation_marks(s):
 def points(games):
     res = 0
     for i in games:
-        if i[0] > i[-1]:
+        if int(i[0]) > int(i[-1]):
             res += 3
-        elif i[0] < i[-1]:
+        elif int(i[0]) < int(i[-1]):
             res += 0
         else:
             res += 1
