@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245,208,78);
+    font-family: "figtree";
+}
+.container{
+    border: 2px solid black;
+    width: 450px;
+    height: 600px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 1px black;
+}
+.top img{
+    width: 400px;
+    border-radius: 10px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 100%;
+}
+.learn{
+    background-color: rgb(245,208,78);
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    width: 17%;
+    border-radius: 5px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.realText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+.realText p{
+    color: rgb(119, 119, 119);
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 23px;
+}
+.photo{
+    margin-top: 50px;
+    display: flex;
+    width: 160px;
+    gap: 5px;
+}
+.photo img{
+    height: 40px;
+    width: 40px;
+}
+.photo p{
+    font-weight: 900;
+    font-size: 1.1em;
+    position: relative;
+    top: 10px;
+}
+
+/* 2 */
+
+.body-1{
+    font-size: 0.75em;
+    font-family: "poppins";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213,225,239);
+}
+.container-1{
+    border: 2px solid black;
+    width: 380px;
+    height: 565px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+}
+.top-1 img{
+    width: 330px;
+    border-radius: 10px;
+    height: 90%;
+}
+.bottom-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+.bottom-1 p{
+    position: relative;
+    color: rgb(141, 140, 140);
+    font-size: 1.35em;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    right: 12px;
+}
+
+
