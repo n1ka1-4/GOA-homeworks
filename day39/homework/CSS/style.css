@@ -14,6 +14,7 @@ body{
     font-family: "Inter";
 }
 .container{
+    border-radius: 5px;
     width: 1250px;
     height: 520px;
     background-color: rgb(255, 255, 255);
@@ -27,6 +28,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 0 5px 5px 0;
 }
 .right::before{
     content: "";
@@ -34,8 +36,10 @@ body{
     height: 100%;
     background-color: rgba(94, 0, 141, 0.5);
     position: absolute;
+    border-radius: 0 5px 5px 0;
 }
 .left{
+    border-radius: 5px 0 0 5px;
     width: 50%;
     height: 100%;
     padding: 75px;
@@ -82,6 +86,8 @@ body{
     font-family: "Lexend Deca";
     font-weight: 150;
     font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 

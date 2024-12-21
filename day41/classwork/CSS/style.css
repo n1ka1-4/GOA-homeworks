@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    width: 70%;
+    height: 75%;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+    width: 33.3%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 10px 0 0 10px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    width: 33.3%;
+    height: 100%;
+    padding: 50px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    width: 33.3%;
+    height: 100%;
+    padding: 50px;
+    border-radius: 0 10px 10px 0;
+} 
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 92.15%;
+    margin-top: 70px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 27px;
+}
+img{
+    position: absolute;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Big Shoulders Text", sans-serif;
+}
+.button-0{
+    position: relative;
+    top: 90px;
+    width: 55%;
+    height: 50px;
+    border-radius: 30px;
+    button{
+        position: relative;
+        border: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        cursor: pointer;
+        color: hsl(31, 77%, 52%);
+        transition: transform 0.5s  ease-in-out;    
+    }
+}
+.button-1{
+    position: relative;
+    top: 90px;
+    width: 55%;
+    height: 50px;
+    border-radius: 30px;
+    button{
+        position: relative;
+        border: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        cursor: pointer;
+        color: hsl(184, 100%, 22%);
+        transition: transform 0.5s  ease-in-out;    
+    }
+}
+.button-2{
+    position: relative;
+    top: 90px;
+    width: 55%;
+    height: 50px;
+    border-radius: 30px;
+    button{
+        position: relative;
+        border: none;
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        cursor: pointer;
+        color: hsl(179, 100%, 13%);
+        transition: transform 0.5s  ease-in-out;    
+    }
+}
+button:hover{
+    background-color: hsl(0, 0%, 95%);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+button{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-weight: 500;   
+}
