@@ -1,0 +1,23 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(213, 213, 213);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.child{
+    background-color: aliceblue;
+    border: 1px solid rgb(111, 111, 111);
+}
