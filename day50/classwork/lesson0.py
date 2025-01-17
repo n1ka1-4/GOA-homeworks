@@ -11,7 +11,7 @@ name = "hello"
 
 try:
     print(username)
-except ValueError:
+except NameError:
     print("username is not defined")
 
 # 2
@@ -19,7 +19,7 @@ list1 = [1,2,3,4]
 
 try:
     print(list1[4])
-except ValueError:
+except IndexError:
     print("list index out of range")
 
 # 3
