@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+.jr{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 255, 255, 0.786);
+}
+.jr1:hover{
+    transform: translateX(50px);
+}
+.jr2:hover{
+    transform: scale(2);
+}
+.jr3:hover{
+    transform: scale(1.5);
+}
+.jr3:active{
+    transform: scale(1.3);
+}
+.jr4{
+    border-top: 3px solid black;
+}
+.jr4:hover{
+    transform: rotate(180deg);
+}
+.jr5{
+    border-top: 3px solid black;
+}
+.jr5:hover{
+    background-color: rgb(255, 59, 59);
+    transform: rotate(180deg);
+    transition: background-color 1s 2s, transform 5s 2s;
+}

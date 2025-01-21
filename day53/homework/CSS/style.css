@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+.jr{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 255, 255, 0.786);
+}
+.jr1:hover{
+    transform: skew(45deg);
+}
+.jr2:hover{
+    transform: scale(2) translate(20px);
+}
+.jr3:hover{
+    transform:scaleX(2);
+}
