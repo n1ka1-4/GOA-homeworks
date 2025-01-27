@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style0.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./CSS/style0.css" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Conference ticket generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">
+                <img src="./images/logo-mark.svg" />
+                <p>Coding Conf</p>
+            </div>
+            <div class="text">
+                <h1>Your Journey to Coding Conf <br>2025 Starts Here!</h1>
+                <p>
+                    Secure your spot atnext year's biggest coding conference.
+                </p>
+            </div>
+            <div class="get_ticket">
+                <div class="upload">
+                    <p>Upload Avatar</p>
+                    <div class="upload_avatar">
+                        <img src="./images/icon-upload.svg" />
+                        <p>Drag and drop or click to upload</p>
+                    </div>
+                    <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+                </div>
+                <lable for="fullame" class="css_on f">Full Name</lable>
+                <input type="text" id="fullame" />
+                <lable for="Emailaddress" class="css_on">Email Address</lable>
+                <input
+                    type="email"
+                    id="Emailaddress"
+                    placeholder="example@email.com"
+
+                />
+                <lable for="gitHubUser" class="css_on">GitHub Username</lable>
+                <input
+                    type="text"
+                    id="gitHubUser"
+                    placeholder="@yourusername"
+                />
+                <button class="btn">Generate My Ticket</button>
+            </div>
+        </div>
+    </body>
 </html>
