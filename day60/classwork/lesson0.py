@@ -19,3 +19,9 @@ def likes(names):
 # 3
 def find_it(seq):
     return max([i for i in seq if seq.count(i) % 2 == 1])
+
+# 4
+def move_zeros(lst):
+    ll = [i for i in lst if i == 0]
+    ls = [i for i in lst if i != 0]
+    return ls + ll
