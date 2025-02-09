@@ -46,3 +46,8 @@ def how_much_i_love_you(n):
 # 5
 def reverse_list(l):
     return l[::-1]
+
+# 6
+import math
+def find_difference(a, b):
+    return abs(math.prod(a) - math.prod(b))
