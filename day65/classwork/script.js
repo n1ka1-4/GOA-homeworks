@@ -1,5 +1,6 @@
 // 1
 
+// dictionary is similar to object in python but in javascript we use object instead of dictionary and in object we don't need to write the key in quotes but in dictionary we need to write the key in quotes and we can access the value of the key by using dot operator in object but in dictionary we need to use square brackets to access the value of the key
 
 // 2
 function player(name, age, country, score, method) {
