@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Tip calculator app</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <label for="bill">Bill</label>
+                <img src="images/icon-dollar.svg" class="icon icon1">
+                <input type="number" id="bill" placeholder="0"/>
+                <div class="tip">
+                    <p>Select Tip %</p>
+                    <div class="tips">
+                        <button class="custom">5%</button>
+                        <button class="custom">10%</button>
+                        <button class="custom">15%</button>
+                        <button class="custom">25%</button>
+                        <button class="custom">50%</button>
+                        <input type="number" placeholder="Custom" class="custom"/>
+                    </div>
+                </div>
+                <div class="input-txt">
+                    <label for="people">Number Of People</label>
+                </div>
+                <img src="images/icon-person.svg" class="icon icon2">
+                <input type="number" id="people" placeholder="0"/>
+            </div>
+            <div class="right">
+                <div class="totals">
+                    <div class="top">
+                        <div class="top-txt">
+                            <p>Tip Amount</p>
+                            <p>/ person</p>
+                        </div>
+                        <p class="sizer">$<span id="tip-per-person">0.00</span></p>
+                    </div>
+                    <div class="bottom">
+                        <div class="bottom-txt">
+                            <p>Total</p>
+                            <p>/ person</p>
+                        </div>
+                        <p class="sizer">$<span id="total-per-person">0.00</span></p>
+                    </div>
+                </div>
+                <button>Reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
