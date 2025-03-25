@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+            .slide{
+                display: none;
+                width: 450px;
+                height: 300px;
+            }
+            .displaySlide{
+                display: block;
+            }
+            button{
+                width: 50px;
+                height: 50px;
+                font-size: 2em;
+            }
+            .btn{
+                display: flex;
+                justify-content: space-between;
+                width: 450px;
+            }
+        </style>
+        <div class="slider">
+            <div class="slides">
+                <img src="./images/car1.png" class="slide">
+                <img src="./images/car2.png" class="slide">
+                <img src="./images/car3.png" class="slide">
+            </div>
+            <div class="btn">
+                <button class="prev" onclick="prevSlide()"><</button>
+                <button class="next" onclick="nextSlide()">></button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
