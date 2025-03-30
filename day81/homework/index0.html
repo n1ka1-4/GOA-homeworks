@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>registration</h2>
+        <input type="text" id="regUsername" placeholder="username" />
+        <br>
+        <br>
+        <input type="password" id="regPassword" placeholder="password" />
+        <br>
+        <br>
+        <button onclick="registerUser()">registration</button>
+
+        <h2>authorization</h2>
+        <input
+            type="text"
+            id="loginUsername"
+            placeholder="username"
+        />
+        <br>
+        <br>
+        <input type="password" id="loginPassword" placeholder="password" />
+        <br>
+        <br>
+        <button onclick="loginUser()">authorization</button>
+
+        <div id="userDetails"></div>
+        <div id="adminPanel"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
