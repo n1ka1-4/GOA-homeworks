@@ -1,0 +1,1 @@
+// JSON is a data format that is easy to read and write for humans and machines. we use JSON to store and exchange data. it is easy to read and write, and it is also easy to parse.
