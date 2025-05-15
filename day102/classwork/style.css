@@ -1,0 +1,188 @@
+*,*::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(202, 86%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Spartan", sans-serif;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    display: flex;
+}
+.left, .right{
+    width: 500px;
+    height: 100%;
+}
+.left{
+    border-radius: 25px 0 0 25px;
+    padding: 45px 40px;
+    .ttcl{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            font-size: 1.6em;
+        }
+        button{
+            text-decoration: underline;
+            background-color: white;
+            color: hsl(200, 24%, 40%);
+            border: none;
+            font-size: 1.1em;
+        }
+    }
+    .form{
+        position: relative;
+        top: 40px;
+        height: 455px;
+        input:not(input[type=radio]){
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            border: 1px solid hsl(200, 26%, 54%);
+            padding: 0 10px;
+            background-color: transparent;
+        }
+        label{
+            color: hsl(200, 26%, 54%);
+            font-weight: 550;
+            font-size: 1em;
+            position: relative;
+            bottom: 7px;
+        }
+        label:last-child{
+            position: relative;
+            top: 0;
+        }      
+        .trmntr{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 25px 0;
+            
+        }   
+        .mrt::after{
+            content: "₤";
+            position: absolute;
+            left: 0;
+            top: 25.5px;
+            z-index: 2;
+            width: 75px;
+            height: 50px;
+            border-radius: 5px 0 0 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(202, 86%, 94%);
+            color: hsl(200, 24%, 40%);
+            font-weight: 600;
+            border: 1px solid hsl(200, 26%, 54%);
+        }
+        #mrt{
+            position: relative;
+            width: 83%;
+            left: 70px;
+        }
+        .trm, .ntr{
+            position: relative;
+            width: 45%;
+        }
+        .trm::after, .ntr::after{
+            content: "years";
+            position: absolute;
+            left: 115px;
+            top: 18.5px;
+            z-index: 2;
+            width: 75px;
+            height: 50px;
+            border-radius: 0 5px 5px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(202, 86%, 94%);
+            color: hsl(200, 24%, 40%);
+            font-weight: 600;
+            border: 1px solid hsl(200, 26%, 54%);
+        }
+         .ntr::after{
+            content: "%";
+            font-weight: 700;
+            left: 157px;
+            width: 50px;
+        }
+        #d-clr{
+            color: hsl(202, 55%, 16%);
+        }
+        .radio-repay, .radio-inte{
+            width: 100%;
+            height: 50px;
+            border: 1px solid hsl(200, 26%, 54%);
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            padding-left: 20px;
+        }
+        input[type=radio]{
+            width: 15px;
+            height: 15px;
+        }
+        #mrt-type{
+            position: absolute;
+            top: 200px;
+        }
+        .radio-repay{
+            margin-top: 70px;
+        }
+        .radio-inte label, .radio-repay label{
+            color: hsl(200, 24%, 40%);
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    width: 75%;
+    border-radius: 30px;
+    height: 50px;
+    background-color: rgb(217,219,49);
+    border: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    img{
+        margin-right: 10px;
+    }
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 0 25px 25px 100px;
+    color: white;
+    padding: 50px;
+    gap: 20px;
+    p{
+        color: hsl(200, 24%, 40%);
+        font-weight: 600;
+        font-size: 0.9em;
+    }
+}
