@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Advice generator app</title>
+    </head>
+    <body>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background-color: hsl(218, 23%, 16%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "Manrope", sans-serif;
+                font-size: 28px;
+                color: hsl(193, 38%, 86%);
+                height: 100vh;
+                font-weight: 700;
+                text-align: center;
+            }
+            p:first-child {
+                color: hsl(150, 100%, 66%);
+                font-size: 17px;
+                letter-spacing: 4px;
+                position: absolute;
+                font-weight: 600;
+                top: 55px;
+            }
+            .container {
+                position: relative;
+                width: 600px;
+                height: 400px;
+                background-color: hsl(217, 19%, 24%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 20px;
+                padding: 50px;
+            }
+            .divider {
+                position: absolute;
+                top: 300px;
+            }
+            .decoration {
+                position: absolute;
+                top: 515px;
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                background-color: hsl(150, 100%, 66%);
+            }
+            .decoration:hover {
+                cursor: pointer;
+                box-shadow: 0 0 20px hsl(150, 100%, 66%);
+                transition: box-shadow 0.2s ease-in-out;
+            }
+        </style>
+        <div class="container"></div>
+        <div class="decoration"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
